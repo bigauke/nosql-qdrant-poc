@@ -64,7 +64,28 @@ Validação da PoC concluída com sucesso!
 
 ---
 
-## 💻 4. Como Executar (Ambiente Local)
+## 📸 4. Evidências (Screenshots)
+
+Abaixo estão as comprovações da execução técnica e da estruturação do código desenvolvidos neste projeto:
+
+### 4.1. Ambiente AWS e PuTTY
+Comprovação da máquina hospedada remotamente rodando as aplicações e armazenando o banco de dados.
+
+![Ambiente AWS](assets/print-aws.png)
+
+### 4.2. Código do Filtro Composto Q6
+Configuração técnica das classes de `Filter`, `FieldCondition` e `MatchValue` consumindo a API Python do Qdrant.
+
+![Código do Filtro Q6](assets/Filtro%20Composto%20-%20Q6.png)
+
+### 4.3. Logs de Execução das Queries
+Exibição do cruzamento do *Score* Vetorial (Similaridade Cosine) com os *Payloads* (Metadados).
+
+![Logs das Queries](assets/print-queries.png)
+
+---
+
+## 💻 5. Como Executar (Ambiente Local)
 
 Caso queira rodar o projeto localmente:
 
