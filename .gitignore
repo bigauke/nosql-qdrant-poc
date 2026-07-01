@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# AWS Keys
+*.pem
+*.ppk
+
+# IDEs
+.vscode/
+.idea/
+
+# Qdrant Database Local
+qdrant_db/
+ec2_ip.txt
+*.log
